@@ -1,7 +1,7 @@
 import { Container, Navbar, Tab, Tabs } from "react-bootstrap";
 
 import "./App.css";
-import FloatingButton from "./FloatingButton";
+import FloatingModalButton from "./FloatingModalButton";
 import showcaseData from "./showcaseData";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       </Navbar>
       <Container className="mt-2 h-100">
         <Tabs className="mb-3" mountOnEnter>
-          {showcaseData.demos.map(({ label, iframeLink }) => (
+          {showcaseData.demos.map(({ label, description, iframeLink }) => (
             <Tab
               className="h-100vh position-relative"
               eventKey={label}
@@ -27,7 +27,7 @@ function App() {
                 allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
                 sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
               ></iframe>
-              <FloatingButton />
+              <FloatingModalButton title={label} description={description} />
             </Tab>
           ))}
         </Tabs>

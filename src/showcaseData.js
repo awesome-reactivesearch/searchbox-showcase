@@ -33,20 +33,20 @@ const showcaseData = {
         "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBox?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
-          <h1>Index Suggestions:</h1>
+          <b>Index Suggestions:</b>
           <p>
             You can also enable popular suggestions, which show frequently
-            searched terms. To do this, set the
+            searched terms. To do this, set the{" "}
             <code>enablePopularSuggestions</code> prop to true. You can
-            customize the behavior of popular suggestions using the
+            customize the behavior of popular suggestions using the{" "}
             <code>popularSuggestionsConfig</code> prop.
           </p>
-          <h1>Recent Suggestions:</h1>
+          <b>Recent Suggestions:</b>
           <p>
             You can also enable recent suggestions, which show the user's most
-            recent searches. To do this, set the
+            recent searches. To do this, set the{" "}
             <code>enableRecentSuggestions</code> prop to true. You can customize
-            the behavior of recent suggestions using the
+            the behavior of recent suggestions using the{" "}
             <code>recentSuggestionsConfig</code> prop.
           </p>
         </div>
@@ -78,6 +78,8 @@ const showcaseData = {
     },
     {
       label: "Focus Shortcut",
+      iframeLink:
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBoxWithKeyboardShortcuts?fontsize=14&hidenavigation=1&theme=dark",
       description: (
         <div>
           <p>

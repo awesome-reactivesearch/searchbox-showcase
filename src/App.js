@@ -1,15 +1,7 @@
-import { Container, Nav, Navbar, Tab, Tabs } from "react-bootstrap";
+import { Container, Navbar, Tab, Tabs } from "react-bootstrap";
 
 import "./App.css";
-
-function SayItLoud() {
-  return (
-    <>
-      <h1>Hello</h1>
-      <div>How are you?</div>
-    </>
-  );
-}
+import showcaseData from "./showcaseData";
 
 function App() {
   return (
@@ -21,21 +13,17 @@ function App() {
       </Navbar>
       <Container className="mt-2 h-100">
         <Tabs className="mb-3" mountOnEnter>
-          <Tab className="h-100vh" eventKey="home" title="Home">
-            <iframe
-              src="https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBoxWithVoiceSearch?fontsize=14&hidenavigation=1&theme=dark"
-              style={{ width: "100%", height: "100%" }}
-              title="searchbox-voice-search"
-              allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-              sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-            ></iframe>
-          </Tab>
-          <Tab eventKey="profile" title="Profile">
-            <SayItLoud />
-          </Tab>
-          <Tab eventKey="contact" title="Contact">
-            <SayItLoud />
-          </Tab>
+          {showcaseData.demos.map(({ label, iframeLink }) => (
+            <Tab className="h-100vh" eventKey={label} title={label}>
+              <iframe
+                src={iframeLink}
+                style={{ width: "100%", height: "100%" }}
+                title="searchbox-voice-search"
+                allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+                sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+              ></iframe>
+            </Tab>
+          ))}
         </Tabs>
       </Container>
     </div>

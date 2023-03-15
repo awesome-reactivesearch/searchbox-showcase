@@ -1,12 +1,5 @@
 import { useState } from "react";
-import {
-  Container,
-  Form,
-  Nav,
-  Navbar,
-  NavDropdown,
-  Tab,
-} from "react-bootstrap";
+import { Container, Nav, Navbar, NavDropdown, Tab } from "react-bootstrap";
 
 import "./App.css";
 import FloatingOverlayButton from "./FloatingOverlayButton";
@@ -19,7 +12,7 @@ function App() {
   const [activeTab, setActiveTab] = useState(defaultActiveTab);
 
   return (
-    <div className="App">
+    <div>
       <Navbar bg="primary" expand="lg">
         <Container>
           <Navbar.Brand className="text-white">Reactivesearch</Navbar.Brand>
@@ -41,7 +34,10 @@ function App() {
             </Nav>
           ) : null}
           {breakpoint === "xs" || breakpoint === "sm" ? (
-            <NavDropdown title={activeTab} className="tab-dropdown">
+            <NavDropdown
+              title={activeTab}
+              className={"searchShowcaseTabDropdown"}
+            >
               {showcaseData.demos.map(({ label }, idx) => (
                 <NavDropdown.Item
                   onClick={() => setActiveTab(label)}

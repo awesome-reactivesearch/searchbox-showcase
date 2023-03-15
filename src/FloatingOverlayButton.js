@@ -1,7 +1,8 @@
 import React from "react";
 import { OverlayTrigger, Popover } from "react-bootstrap";
 
-import "./FloatingOverlayButton.css";
+import styles from "./FloatingOverlayButton.module.css";
+import { useBreakpoint } from "./useBreakpoint";
 
 /*
 Parent should have a CSS position defined
@@ -10,11 +11,14 @@ const FloatingModalButton = ({
   description = "Nothing to show here!",
   title = "Embed",
 }) => {
+  const breakpoint = useBreakpoint();
+  const triggers =
+    breakpoint === "sm" || breakpoint === "xs" ? ["click"] : ["hover"];
   return (
     <>
       <OverlayTrigger
-        placement="left"
-        delay={{ show: 250, hide: 400 }}
+        placement="auto-end"
+        trigger={triggers}
         overlay={
           <Popover>
             <Popover.Header as="h3">{title}</Popover.Header>
@@ -22,7 +26,7 @@ const FloatingModalButton = ({
           </Popover>
         }
       >
-        <button className="floatingButton">ⓘ</button>
+        <button className={styles.floatingButton}>ⓘ</button>
       </OverlayTrigger>
     </>
   );

@@ -4,9 +4,9 @@ import { Container, Nav, Navbar, NavDropdown, Tab } from "react-bootstrap";
 import "./App.css";
 import FloatingOverlayButton from "./FloatingOverlayButton";
 import showcaseData from "./showcaseData";
-import { useBreakpoint } from "./useBreakpoint";
+import { BreakpointProvider, useBreakpoint } from "./useBreakpoint";
 
-function App() {
+function Main() {
   const breakpoint = useBreakpoint();
   const defaultActiveTab = showcaseData.demos[0].label;
   const [activeTab, setActiveTab] = useState(defaultActiveTab);
@@ -74,5 +74,11 @@ function App() {
     </div>
   );
 }
+
+const App = () => (
+  <BreakpointProvider>
+    <Main />
+  </BreakpointProvider>
+);
 
 export default App;

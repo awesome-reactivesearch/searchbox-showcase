@@ -1,7 +1,11 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Container, Nav, Navbar, NavDropdown, Tab } from "react-bootstrap";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import "./App.css";
+import "./utility.css";
+
 import FloatingOverlayButton from "./FloatingOverlayButton";
 import showcaseData from "./showcaseData";
 import { BreakpointProvider, useBreakpoint } from "./useBreakpoint";

@@ -1,10 +1,23 @@
-import { Container, Nav, Navbar, Tab, Tabs } from "react-bootstrap";
+import { useState } from "react";
+import {
+  Container,
+  Form,
+  Nav,
+  Navbar,
+  NavDropdown,
+  Tab,
+} from "react-bootstrap";
 
 import "./App.css";
 import FloatingOverlayButton from "./FloatingOverlayButton";
 import showcaseData from "./showcaseData";
+import { useBreakpoint } from "./useBreakpoint";
 
 function App() {
+  const breakpoint = useBreakpoint();
+  const defaultActiveTab = showcaseData.demos[0].label;
+  const [activeTab, setActiveTab] = useState(defaultActiveTab);
+
   return (
     <div className="App">
       <Navbar bg="primary" expand="lg">
@@ -16,15 +29,29 @@ function App() {
         <Tab.Container
           className="mb-3 visible-md hidden-sm"
           mountOnEnter
-          defaultActiveKey={showcaseData.demos[0].label}
+          defaultActiveKey={defaultActiveTab}
         >
-          <Nav variant="tabs hidden-sm">
-            {showcaseData.demos.map(({ label }, idx) => (
-              <Nav.Item>
-                <Nav.Link eventKey={label}>{label}</Nav.Link>
-              </Nav.Item>
-            ))}
-          </Nav>
+          {breakpoint !== "xs" && breakpoint !== "sm" ? (
+            <Nav variant="tabs">
+              {showcaseData.demos.map(({ label }, idx) => (
+                <Nav.Item>
+                  <Nav.Link eventKey={label}>{label}</Nav.Link>
+                </Nav.Item>
+              ))}
+            </Nav>
+          ) : null}
+          {breakpoint === "xs" || breakpoint === "sm" ? (
+            <NavDropdown title={activeTab} className="tab-dropdown">
+              {showcaseData.demos.map(({ label }, idx) => (
+                <NavDropdown.Item
+                  onClick={() => setActiveTab(label)}
+                  eventKey={label}
+                >
+                  {label}
+                </NavDropdown.Item>
+              ))}
+            </NavDropdown>
+          ) : null}
           <Tab.Content className="mt-2">
             {showcaseData.demos.map(({ label, description, iframeLink }) => (
               <Tab.Pane

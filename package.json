@@ -10,7 +10,7 @@
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "prepare": "webpack --env library=true --mode production"
+    "postinstall": "webpack --env library=true --mode production"
   },
   "browserslist": {
     "production": [

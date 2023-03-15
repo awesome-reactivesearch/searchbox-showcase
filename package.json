@@ -2,20 +2,20 @@
   "name": "searchbox",
   "version": "0.1.0",
   "private": true,
+  "main": "lib/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "bootstrap": "^5.2.3",
-    "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
-    "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "prepare": "webpack --env library=true --mode production"
   },
   "eslintConfig": {
     "extends": [
@@ -35,6 +35,10 @@
       "last 1 safari version"
     ]
   },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
@@ -42,6 +46,8 @@
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sass": "^1.59.3",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.2",

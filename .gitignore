@@ -10,7 +10,8 @@ node_modules
 
 # production
 /build
-/lib
+lib/**/*
+!lib/index.js
 
 # misc
 .DS_Store

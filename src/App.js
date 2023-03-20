@@ -29,10 +29,12 @@ function Main() {
           defaultActiveKey={defaultActiveTab}
         >
           {breakpoint !== "xs" && breakpoint !== "sm" ? (
-            <Nav variant="tabs">
+            <Nav className="flex-nowrap overflow-x-auto" variant="tabs">
               {showcaseData.demos.map(({ label }, idx) => (
                 <Nav.Item>
-                  <Nav.Link eventKey={label}>{label}</Nav.Link>
+                  <Nav.Link className="text-nowrap" eventKey={label}>
+                    {label}
+                  </Nav.Link>
                 </Nav.Item>
               ))}
             </Nav>

@@ -2,7 +2,9 @@
 .h-100vh {
   height: 100vh;
 }
-
+.overflow-x-auto {
+  overflow-x: auto;
+}
 /* 
 visible-sm: Should have visibility for sm and  
 */

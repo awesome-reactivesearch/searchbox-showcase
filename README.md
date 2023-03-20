@@ -33,3 +33,56 @@ const App = () => (
 ```
 
 Note the usage of class "bootstrap" which is necessary to apply the styles correctly. It is how we avoid conflicts with other stylesheets your site might already be using.
+
+# Used in
+
+This is currently being used in `reactivesearch.io` website and documentation website(`docs.reactivesearch.io`).
+
+## Reactivesearch.io
+
+In reactivesearch.io it is used as a html snippet
+
+```html
+<!-- Bootstrap CDN -->
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+  crossorigin="anonymous"
+/>
+<!-- React and React DOM -->
+<script
+  crossorigin
+  src="https://unpkg.com/react@18/umd/react.development.js"
+></script>
+<script
+  crossorigin
+  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+></script>
+<!-- Showcase library -->
+<script>
+  // Import contents from the lib/index.js file here.
+</script>
+<div id="root" className="bootstrap"></div>
+
+<script>
+  const root = ReactDOM.createRoot(document.getElementById("root"));
+  console.log(SearchboxShowcase);
+  root.render(React.createElement(SearchboxShowcase.default));
+</script>
+```
+
+## Documentation website
+
+In documentation website it is imported as a component.
+
+```jsx
+import React from "react";
+
+import SearchboxShowcase from "searchbox-showcase";
+const App = () => (
+  <div className="bootstrap">
+    <SearchboxShowcase />{" "}
+  </div>
+);
+```

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 
 const breakpoints = {
   0: "xs",
@@ -16,12 +16,16 @@ export const BreakpointProvider = ({ children }) => {
     width: undefined,
     height: undefined,
   });
+  const containerRef = useRef(null);
 
   const handleResize = () => {
-    setWindowSize({
-      width: window.innerWidth,
-      height: window.innerHeight,
-    });
+    if (containerRef.current) {
+      const { width, height } = containerRef.current.getBoundingClientRect();
+      setWindowSize({
+        width,
+        height,
+      });
+    }
   };
 
   useEffect(() => {
@@ -49,7 +53,9 @@ export const BreakpointProvider = ({ children }) => {
 
   return (
     <BreakpointCtx.Provider value={breakpoint}>
-      {children}
+      <div ref={containerRef} className="w-100 h-100">
+        {children}
+      </div>
     </BreakpointCtx.Provider>
   );
 };

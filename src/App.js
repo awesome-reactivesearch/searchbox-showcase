@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Nav, Navbar, NavDropdown, Tab } from "react-bootstrap";
 
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./custom.scss";
 
 import "./App.css";
 import "./utility.css";

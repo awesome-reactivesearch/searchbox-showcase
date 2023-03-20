@@ -25,5 +25,11 @@ Then in your file
 ```js
 import SearchboxShowcase from "searchbox-showcase";
 
-const App = () => <SearchboxShowcase />;
+const App = () => (
+  <div className="bootstrap">
+    <SearchboxShowcase />;
+  </div>
+);
 ```
+
+Note the usage of class "bootstrap" which is necessary to apply the styles correctly. It is how we avoid conflicts with other stylesheets your site might already be using.

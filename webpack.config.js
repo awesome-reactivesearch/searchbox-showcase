@@ -45,6 +45,7 @@ module.exports = (env) => {
     config.output = {
       path: path.join(__dirname, "/lib"),
       filename: "index.js",
+      globalObject: "this",
       library: {
         name: "SearchboxShowcase",
         type: "umd",

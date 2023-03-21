@@ -29,26 +29,29 @@ export const BreakpointProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    window.addEventListener("resize", handleResize);
-    handleResize();
+    // In Gatsby this would be run without window object
+    if (window) {
+      window.addEventListener("resize", handleResize);
+      handleResize();
 
-    if (0 < windowSize.width && windowSize.width < 600) {
-      setBreakPoint(breakpoints[0]);
-    }
-    if (600 < windowSize.width && windowSize.width < 960) {
-      setBreakPoint(breakpoints[600]);
-    }
-    if (960 < windowSize.width && windowSize.width < 1280) {
-      setBreakPoint(breakpoints[960]);
-    }
-    if (1280 < windowSize.width && windowSize.width < 1920) {
-      setBreakPoint(breakpoints[1280]);
-    }
-    if (windowSize.width >= 1920) {
-      setBreakPoint(breakpoints[1920]);
-    }
+      if (0 < windowSize.width && windowSize.width < 600) {
+        setBreakPoint(breakpoints[0]);
+      }
+      if (600 < windowSize.width && windowSize.width < 960) {
+        setBreakPoint(breakpoints[600]);
+      }
+      if (960 < windowSize.width && windowSize.width < 1280) {
+        setBreakPoint(breakpoints[960]);
+      }
+      if (1280 < windowSize.width && windowSize.width < 1920) {
+        setBreakPoint(breakpoints[1280]);
+      }
+      if (windowSize.width >= 1920) {
+        setBreakPoint(breakpoints[1920]);
+      }
 
-    return () => window.removeEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }
   }, [windowSize.width]);
 
   return (

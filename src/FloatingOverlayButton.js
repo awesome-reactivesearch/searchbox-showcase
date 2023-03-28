@@ -19,6 +19,7 @@ const FloatingModalButton = ({
       <OverlayTrigger
         placement="auto-end"
         trigger={triggers}
+        rootClose
         overlay={
           <Popover>
             <Popover.Header as="h3">{title}</Popover.Header>

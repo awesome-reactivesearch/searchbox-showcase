@@ -13,7 +13,11 @@ const showcaseData = {
           search using their voice instead of typing. This can be especially
           useful for users on mobile devices or for those with accessibility
           needs. Read more about this prop and see the whole SearchBox component
-          reference over here.
+          reference over{" "}
+          <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/searchbox/#showvoicesearch">
+            here
+          </a>
+          .
         </div>
       ),
     },

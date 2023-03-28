@@ -38,6 +38,18 @@ Note the usage of class "bootstrap" which is necessary to apply the styles corre
 
 This is currently being used in `reactivesearch.io` website and documentation website(`docs.reactivesearch.io`).
 
+# Showcase Demo Data
+
+The demo data is inside a file called [`src/showcaseData.js`](/src/showcaseData.js). You can make changes to the demo and add new demos there. The schema for data is below
+
+```ts
+{
+  label: string,
+  iframeLink: url, // Codesandbox link or any embed link
+  description: JSX, // Write anything HTML here(Links, Headings, Paragraphs, code blocks, etc.) and it would be rendered with proper styles.
+}
+```
+
 ## Reactivesearch.io
 
 In reactivesearch.io it is used as a html snippet

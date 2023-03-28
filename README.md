@@ -86,3 +86,11 @@ const App = () => (
   </div>
 );
 ```
+
+Also once we make changes to this repository, we should update the package in the documentation repository. The part of url after the `#` should be the latest commit id of the main branch.
+
+```json
+{
+  "searchbox-showcase": "https://github.com/awesome-reactivesearch/searchbox-showcase.git#{latest_commit_id}"
+}
+```

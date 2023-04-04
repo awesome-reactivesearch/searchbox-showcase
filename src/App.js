@@ -21,7 +21,9 @@ function Main() {
       <Navbar bg="white" className="shadow mb-5" expand="lg">
         <Container>
           <Navbar.Brand>Reactivesearch</Navbar.Brand>
-          <span className={`text-white ${styles.headingTag}`}>KNN Search</span>
+          <span className={`text-white ${styles.headingTag}`}>
+            Searchbox Showcase
+          </span>
         </Container>
       </Navbar>
       <Container className="mt-2 h-100">

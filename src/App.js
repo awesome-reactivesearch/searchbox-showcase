@@ -5,6 +5,7 @@ import "./custom.scss";
 
 import "./App.css";
 import "./utility.css";
+import styles from "./App.module.css";
 
 import FloatingOverlayButton from "./FloatingOverlayButton";
 import showcaseData from "./showcaseData";
@@ -17,9 +18,10 @@ function Main() {
 
   return (
     <div>
-      <Navbar bg="primary" expand="lg">
+      <Navbar bg="white" className="shadow mb-5" expand="lg">
         <Container>
-          <Navbar.Brand className="text-white">Reactivesearch</Navbar.Brand>
+          <Navbar.Brand>Reactivesearch</Navbar.Brand>
+          <span className={`text-white ${styles.headingTag}`}>KNN Search</span>
         </Container>
       </Navbar>
       <Container className="mt-2 h-100">

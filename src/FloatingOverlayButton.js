@@ -12,13 +12,11 @@ const FloatingModalButton = ({
   title = "Embed",
 }) => {
   const breakpoint = useBreakpoint();
-  const triggers =
-    breakpoint === "sm" || breakpoint === "xs" ? ["click"] : ["hover"];
   return (
     <>
       <OverlayTrigger
         placement="auto-end"
-        trigger={triggers}
+        trigger={["click"]}
         rootClose
         overlay={
           <Popover>

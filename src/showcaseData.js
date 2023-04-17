@@ -108,6 +108,70 @@ const showcaseData = {
         "https://codesandbox.io/embed/github/awesome-reactivesearch/q-n-a-search-ui/tree/plain-search-app/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: <div>Show a list of pre-defined suggestions.</div>,
     },
+    {
+      label: "Q&A Simple",
+      description: (
+        <div>
+          <p>
+            A simple AI QnA app using{" "}
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/">
+              AIAnswer
+            </a>
+            component
+          </p>
+          <p>
+            This app uses a IMDB movies dataset and answers your questions
+            regarding your favorite movie.
+          </p>
+          <p>
+            You can configure the component using <code>AIConfig</code>.
+          </p>
+        </div>
+      ),
+      iframeLink:
+        "https://codesandbox.io/embed/github/awesome-reactivesearch/q-n-a-search-ui/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+    },
+    {
+      label: "Q&A with AIAnswer: Rick and Morty",
+      description: (
+        <div>
+          <p>
+            A simple AI QnA app using{" "}
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/">
+              AIAnswer
+            </a>{" "}
+            component
+          </p>
+          <p>
+            This app uses a Rick and morty dataset and answers your questions
+            regarding your favorite characters.
+          </p>
+          <p>
+            You can configure the component using <code>AIConfig</code>.
+          </p>
+        </div>
+      ),
+      iframeLink:
+        "https://codesandbox.io/embed/github/awesome-reactivesearch/qna-rick-and-morty/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+    },
+    {
+      label: "QnA Documentation using AI",
+      description: (
+        <div>
+          <p>
+            Find your answers for the questions asked using{" "}
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/">
+              AIAnswer
+            </a>
+          </p>
+          <p>
+            You can configure the component using <code>AIConfig</code>.
+          </p>
+        </div>
+      ),
+      iframeLink:
+        "https://codesandbox.io/embed/github/awesome-reactivesearch/q-n-a-search-ui/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+    },
   ],
 };
 

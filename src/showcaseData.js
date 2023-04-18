@@ -132,7 +132,7 @@ const showcaseData = {
         "https://codesandbox.io/embed/github/awesome-reactivesearch/q-n-a-search-ui/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
     },
     {
-      label: "Q&A with AIAnswer: Rick and Morty",
+      label: "Q&A with AIAnswer and follow-up",
       description: (
         <div>
           <p>
@@ -140,7 +140,7 @@ const showcaseData = {
             <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/">
               AIAnswer
             </a>{" "}
-            component
+            component where you can also ask follow up questions.
           </p>
           <p>
             This app uses a Rick and morty dataset and answers your questions
@@ -155,17 +155,20 @@ const showcaseData = {
         "https://codesandbox.io/embed/github/awesome-reactivesearch/qna-rick-and-morty/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
     },
     {
-      label: "QnA Documentation using AI",
+      label: "SearchBox shows AIAnswer",
       description: (
         <div>
           <p>
             Find your answers for the questions asked using{" "}
             <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/">
-              AIAnswer
+              SearchBox
             </a>
+            component.
           </p>
           <p>
-            You can configure the component using <code>AIConfig</code>.
+            You can pass <code>enableAI</code> to <code>true</code>. You can use{" "}
+            <code>AIConfig</code> for customizing the documents and query
+            passed.
           </p>
         </div>
       ),

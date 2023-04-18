@@ -116,7 +116,7 @@ const showcaseData = {
             A simple AI QnA app using{" "}
             <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/">
               AIAnswer
-            </a>
+            </a>{" "}
             component
           </p>
           <p>
@@ -162,7 +162,7 @@ const showcaseData = {
             Find your answers for the questions asked using{" "}
             <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/">
               SearchBox
-            </a>
+            </a>{" "}
             component.
           </p>
           <p>
@@ -173,7 +173,7 @@ const showcaseData = {
         </div>
       ),
       iframeLink:
-        "https://codesandbox.io/embed/github/awesome-reactivesearch/q-n-a-search-ui/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/awesome-reactivesearch/ask-reactivesearch/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
     },
   ],
 };

@@ -22,7 +22,7 @@ function Main() {
         <Container>
           <Navbar.Brand>Reactivesearch</Navbar.Brand>
           <span className={`text-white ${styles.headingTag}`}>
-            Searchbox Showcase
+            Search Showcase
           </span>
         </Container>
       </Navbar>

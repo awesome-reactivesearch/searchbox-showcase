@@ -24,7 +24,7 @@ const showcaseData = {
     {
       label: "With Autosuggestion",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBoxWithAutosuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBox?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           When <code>autosuggest</code> prop is set to <code>true</code>, the
@@ -36,10 +36,10 @@ const showcaseData = {
     {
       label: "With Popular and Recent Suggestions",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBox?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBoxWithAutosuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
-          <b>Index Suggestions:</b>
+          <b>Popular Suggestions:</b>
           <p>
             You can also enable popular suggestions, which show frequently
             searched terms. To do this, set the{" "}
@@ -180,7 +180,7 @@ const showcaseData = {
     {
       label: "Voice Search",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/search-box?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/voice-search?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           Set <code>showVoiceSearch</code> prop to true to enable voice search.
@@ -199,7 +199,7 @@ const showcaseData = {
     {
       label: "With Autosuggestion",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBoxWithAutosuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-box?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           When <code>autosuggest</code> prop is set to <code>true</code>, the
@@ -211,10 +211,10 @@ const showcaseData = {
     {
       label: "With Popular and Recent Suggestions",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBox?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-box?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
-          <b>Index Suggestions:</b>
+          <b>Popular Suggestions:</b>
           <p>
             You can also enable popular suggestions, which show frequently
             searched terms. To do this, set the{" "}
@@ -236,7 +236,7 @@ const showcaseData = {
     {
       label: "With InstantSearch",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBoxWithInstantSearch?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/instant-search?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           <p>
@@ -255,12 +255,12 @@ const showcaseData = {
       label: "Suggestion as Pills",
       description: <div>Suggestions displayed as pills instead of a list.</div>,
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBoxWithPillSuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/pill-suggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
     },
     {
       label: "Focus Shortcut",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBoxWithKeyboardShortcuts?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/focus-shortcuts?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           <p>
@@ -280,7 +280,7 @@ const showcaseData = {
     {
       label: "Featured Suggestions",
       iframeLink:
-        "https://codesandbox.io/embed/github/awesome-reactivesearch/q-n-a-search-ui/tree/plain-search-app/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/featured-suggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: <div>Show a list of pre-defined suggestions.</div>,
     },
     {

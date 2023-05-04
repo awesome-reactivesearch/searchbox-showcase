@@ -180,7 +180,7 @@ const showcaseData = {
     {
       label: "Voice Search",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/voice-search?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/voice-search?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           Set <code>showVoiceSearch</code> prop to true to enable voice search.

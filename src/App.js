@@ -8,12 +8,13 @@ import "./utility.css";
 import styles from "./App.module.css";
 
 import FloatingOverlayButton from "./FloatingOverlayButton";
-import showcaseData from "./showcaseData";
 import { BreakpointProvider, useBreakpoint } from "./useBreakpoint";
+import showcaseData from "./showcaseData";
 
-function Main() {
+function Main({ library = "react" }) {
   const breakpoint = useBreakpoint();
-  const defaultActiveTab = showcaseData.demos[0].label;
+  const demos = showcaseData[library];
+  const defaultActiveTab = demos[0].label;
   const [activeTab, setActiveTab] = useState(defaultActiveTab);
 
   return (
@@ -33,8 +34,8 @@ function Main() {
           defaultActiveKey={defaultActiveTab}
         >
           {breakpoint !== "xs" && breakpoint !== "sm" ? (
-            <Nav className="flex-nowrap overflow-x-auto" variant="tabs">
-              {showcaseData.demos.map(({ label }, idx) => (
+            <Nav className="flex-nowrap overflow-x-auto" variant="pills">
+              {demos.map(({ label }, idx) => (
                 <Nav.Item>
                   <Nav.Link className="text-nowrap" eventKey={label}>
                     {label}
@@ -48,7 +49,7 @@ function Main() {
               title={activeTab}
               className={"searchShowcaseTabDropdown"}
             >
-              {showcaseData.demos.map(({ label }, idx) => (
+              {demos.map(({ label }, idx) => (
                 <NavDropdown.Item
                   onClick={() => setActiveTab(label)}
                   eventKey={label}
@@ -59,7 +60,7 @@ function Main() {
             </NavDropdown>
           ) : null}
           <Tab.Content className="mt-2">
-            {showcaseData.demos.map(({ label, description, iframeLink }) => (
+            {demos.map(({ label, description, iframeLink }) => (
               <Tab.Pane
                 className="h-100vh position-relative"
                 eventKey={label}
@@ -85,9 +86,9 @@ function Main() {
   );
 }
 
-const App = () => (
+const App = ({ library }) => (
   <BreakpointProvider>
-    <Main />
+    <Main library={library} />
   </BreakpointProvider>
 );
 

@@ -5,4 +5,4 @@ import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("search-showcase"));
 
-root.render(<App />);
+root.render(<App library={"react"} />);

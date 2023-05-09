@@ -304,7 +304,7 @@ const showcaseData = {
         </div>
       ),
       iframeLink:
-        "https://codesandbox.io/embed/github/awesome-reactivesearch/q-n-a-search-ui/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/awesome-reactivesearch/q-n-a-search-ui/tree/feat/vue-showcase/packages/vue/examples/search-showcase/ai-answer-simple?fontsize=14&hidenavigation=1&theme=dark&view=preview",
     },
     {
       label: "Q&A with AIAnswer and follow-up",
@@ -327,7 +327,7 @@ const showcaseData = {
         </div>
       ),
       iframeLink:
-        "https://codesandbox.io/embed/github/awesome-reactivesearch/qna-rick-and-morty/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/awesome-reactivesearch/qna-rick-and-morty/tree/feat/vue-showcase/packages/vue/examples/ai-answer?fontsize=14&hidenavigation=1&theme=dark&view=preview",
     },
     {
       label: "SearchBox shows AIAnswer",
@@ -348,7 +348,7 @@ const showcaseData = {
         </div>
       ),
       iframeLink:
-        "https://codesandbox.io/embed/github/awesome-reactivesearch/ask-reactivesearch/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/awesome-reactivesearch/ask-reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/searchbox-inline-ai-response?fontsize=14&hidenavigation=1&theme=dark&view=preview",
     },
   ],
 };

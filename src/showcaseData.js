@@ -327,7 +327,7 @@ const showcaseData = {
         </div>
       ),
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/ai-answer?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/movies-search-ai-demo?fontsize=14&hidenavigation=1&theme=dark&view=preview",
     },
     {
       label: "SearchBox shows AIAnswer",

@@ -8,7 +8,7 @@ import "./custom-select.css";
 const root = ReactDOM.createRoot(document.getElementById("search-showcase"));
 
 const Main = () => {
-  const [library, setLibrary] = useState("react");
+  const [library, setLibrary] = useState("vue");
   return (
     <>
       <div className="custom-dropdown">

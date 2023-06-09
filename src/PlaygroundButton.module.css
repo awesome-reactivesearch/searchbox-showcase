@@ -1,0 +1,17 @@
+.playgroundButton {
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  padding: 0px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid rgb(52, 52, 52) !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(21, 21, 21);
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}

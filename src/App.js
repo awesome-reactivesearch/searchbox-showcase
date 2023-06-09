@@ -10,6 +10,7 @@ import styles from "./App.module.css";
 import FloatingOverlayButton from "./FloatingOverlayButton";
 import { BreakpointProvider, useBreakpoint } from "./useBreakpoint";
 import showcaseData from "./showcaseData";
+import PlaygroundButton from "./PlaygroundButton";
 
 function Main({ library = "react" }) {
   const breakpoint = useBreakpoint();
@@ -60,7 +61,7 @@ function Main({ library = "react" }) {
             </NavDropdown>
           ) : null}
           <Tab.Content className="mt-2">
-            {demos.map(({ label, description, iframeLink }) => (
+            {demos.map(({ label, description, iframeLink, playgroundLink }) => (
               <Tab.Pane
                 className="h-100vh position-relative"
                 eventKey={label}
@@ -68,7 +69,11 @@ function Main({ library = "react" }) {
               >
                 <iframe
                   src={iframeLink}
-                  style={{ width: "100%", height: "100%" }}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
+                  }}
                   title="searchbox-voice-search"
                   allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
                   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
@@ -77,6 +82,9 @@ function Main({ library = "react" }) {
                   title={label}
                   description={description}
                 />
+                {playgroundLink ? (
+                  <PlaygroundButton href={playgroundLink} />
+                ) : null}
               </Tab.Pane>
             ))}
           </Tab.Content>

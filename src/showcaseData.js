@@ -105,7 +105,7 @@ const showcaseData = {
     {
       label: "Featured Suggestions",
       iframeLink:
-        "https://codesandbox.io/embed/github/awesome-reactivesearch/q-n-a-search-ui/tree/plain-search-app/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/awesome-reactivesearch/q-n-a-search-ui/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: <div>Show a list of pre-defined suggestions.</div>,
     },
     {
@@ -179,8 +179,9 @@ const showcaseData = {
   vue: [
     {
       label: "Voice Search",
-      iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/voice-search?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+      iframeLink: "https://n1ehfx-5173.csb.app/",
+      playgroundLink:
+        "https://codesandbox.io/p/sandbox/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/voice-search",
       description: (
         <div>
           Set <code>showVoiceSearch</code> prop to true to enable voice search.
@@ -198,8 +199,9 @@ const showcaseData = {
     },
     {
       label: "With Autosuggestion",
-      iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-box?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+      iframeLink: "https://8s6pl3-5173.csb.app/",
+      playgroundLink:
+        "https://codesandbox.io/p/sandbox/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/search-box",
       description: (
         <div>
           When <code>autosuggest</code> prop is set to <code>true</code>, the
@@ -210,8 +212,9 @@ const showcaseData = {
     },
     {
       label: "With Popular and Recent Suggestions",
-      iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-box?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+      iframeLink: "https://8s6pl3-5173.csb.app/",
+      playgroundLink:
+        "https://codesandbox.io/p/sandbox/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/search-box",
       description: (
         <div>
           <b>Popular Suggestions:</b>
@@ -235,8 +238,9 @@ const showcaseData = {
     },
     {
       label: "With InstantSearch",
-      iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/instant-search?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+      iframeLink: "https://i26r9m-5173.csb.app",
+      playgroundLink:
+        "https://codesandbox.io/p/sandbox/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/instant-search",
       description: (
         <div>
           <p>
@@ -254,13 +258,15 @@ const showcaseData = {
     {
       label: "Suggestion as Pills",
       description: <div>Suggestions displayed as pills instead of a list.</div>,
-      iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/pill-suggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+      iframeLink: "https://ohlvcm-5173.csb.app",
+      playgroundLink:
+        "https://codesandbox.io/p/sandbox/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/pill-suggestions",
     },
     {
       label: "Focus Shortcut",
-      iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/focus-shortcuts?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+      iframeLink: "https://flgu8g-5173.csb.app",
+      playgroundLink:
+        "https://codesandbox.io/p/sandbox/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/focus-shortcuts",
       description: (
         <div>
           <p>
@@ -279,12 +285,15 @@ const showcaseData = {
     },
     {
       label: "Featured Suggestions",
-      iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/featured-suggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+      iframeLink: "https://1s19lf-5173.csb.app/",
+      playgroundLink:
+        "https://codesandbox.io/p/sandbox/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/featured-suggestions",
       description: <div>Show a list of pre-defined suggestions.</div>,
     },
     {
       label: "Q&A Simple",
+      playgroundLink:
+        "https://codesandbox.io/p/sandbox/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/ai-answer-simple",
       description: (
         <div>
           <p>
@@ -303,11 +312,12 @@ const showcaseData = {
           </p>
         </div>
       ),
-      iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/ai-answer-simple?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+      iframeLink: "https://tcrhc1-5173.csb.app/",
     },
     {
       label: "Q&A with AIAnswer and follow-up",
+      playgroundLink:
+        "https://codesandbox.io/p/sandbox/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/movie-search-ai-demo",
       description: (
         <div>
           <p>
@@ -326,11 +336,12 @@ const showcaseData = {
           </p>
         </div>
       ),
-      iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/movies-search-ai-demo?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+      iframeLink: "https://u1uh3r-5173.csb.app",
     },
     {
       label: "SearchBox shows AIAnswer",
+      playgroundLink:
+        "https://codesandbox.io/p/sandbox/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/searchbox-inline-ai-response",
       description: (
         <div>
           <p>
@@ -347,8 +358,7 @@ const showcaseData = {
           </p>
         </div>
       ),
-      iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/searchbox-inline-ai-response?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+      iframeLink: "https://tyjgtv-5173.csb.app/",
     },
   ],
 };

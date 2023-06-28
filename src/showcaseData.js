@@ -180,7 +180,7 @@ const showcaseData = {
     {
       label: "Voice Search",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/voice-search?file=package.json",
+        "https://codesandbox.io/embed/github/SavvyShah/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/voice-search?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           Set <code>showVoiceSearch</code> prop to true to enable voice search.
@@ -199,7 +199,7 @@ const showcaseData = {
     {
       label: "With Autosuggestion",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-box?file=package.json",
+        "https://codesandbox.io/embed/github/SavvyShah/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/auto-suggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           When <code>autosuggest</code> prop is set to <code>true</code>, the
@@ -211,7 +211,7 @@ const showcaseData = {
     {
       label: "With Popular and Recent Suggestions",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-box?file=package.json",
+        "https://codesandbox.io/embed/github/SavvyShah/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/simple-search?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           <b>Popular Suggestions:</b>
@@ -236,7 +236,7 @@ const showcaseData = {
     {
       label: "With InstantSearch",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/instant-search?file=package.json",
+        "https://codesandbox.io/embed/github/SavvyShah/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/instant-search?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           <p>
@@ -255,12 +255,12 @@ const showcaseData = {
       label: "Suggestion as Pills",
       description: <div>Suggestions displayed as pills instead of a list.</div>,
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/pill-suggestions?file=package.json",
+        "https://codesandbox.io/embed/github/SavvyShah/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/pill-suggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
     },
     {
       label: "Focus Shortcut",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/focus-shortcuts?file=package.json",
+        "https://codesandbox.io/embed/github/SavvyShah/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/focus-shortcuts?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           <p>
@@ -280,13 +280,13 @@ const showcaseData = {
     {
       label: "Featured Suggestions",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/featured-suggestions?file=package.json",
+        "https://codesandbox.io/embed/github/SavvyShah/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/featured-suggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: <div>Show a list of pre-defined suggestions.</div>,
     },
     {
       label: "Q&A Simple",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/ai-answer-simple?file=package.json",
+        "https://codesandbox.io/embed/github/SavvyShah/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/ai-answer-simple?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           <p>
@@ -309,7 +309,7 @@ const showcaseData = {
     {
       label: "Q&A with AIAnswer and follow-up",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/movie-search-ai-demo?file=package.json",
+        "https://codesandbox.io/embed/github/SavvyShah/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/movie-search-ai-demo?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           <p>
@@ -332,7 +332,7 @@ const showcaseData = {
     {
       label: "SearchBox shows AIAnswer",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/search-showcase/searchbox-inline-ai-response?file=package.json",
+        "https://codesandbox.io/embed/github/SavvyShah/reactivesearch/tree/feat/vue-showcase/packages/vue/examples/searchbox-inline-ai-response?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           <p>

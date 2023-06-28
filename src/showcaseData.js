@@ -24,7 +24,7 @@ const showcaseData = {
     {
       label: "With Autosuggestion",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBox?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/react-showcase-examples/packages/web/examples/SearchBoxWithAutosuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           When <code>autosuggest</code> prop is set to <code>true</code>, the
@@ -36,7 +36,7 @@ const showcaseData = {
     {
       label: "With Popular and Recent Suggestions",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBoxWithAutosuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/react-showcase-examples/packages/web/examples/SearchBoxWithPopularRecentSuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           <b>Popular Suggestions:</b>
@@ -80,7 +80,7 @@ const showcaseData = {
       label: "Suggestion as Pills",
       description: <div>Suggestions displayed as pills instead of a list.</div>,
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/web/examples/SearchBoxWithPillSuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/react-showcase-examples/packages/web/examples/SearchBoxWithPillSuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
     },
     {
       label: "Focus Shortcut",
@@ -105,11 +105,13 @@ const showcaseData = {
     {
       label: "Featured Suggestions",
       iframeLink:
-        "https://codesandbox.io/embed/github/awesome-reactivesearch/q-n-a-search-ui/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/github/appbaseio/reactivesearch/tree/feat/react-showcase-examples/packages/web/examples/SearchBoxWithFeaturedSuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: <div>Show a list of pre-defined suggestions.</div>,
     },
     {
       label: "Q&A Simple",
+      iframeLink:
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/react-showcase-examples/packages/web/examples/AIAnswer?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: (
         <div>
           <p>
@@ -128,8 +130,6 @@ const showcaseData = {
           </p>
         </div>
       ),
-      iframeLink:
-        "https://codesandbox.io/embed/github/awesome-reactivesearch/q-n-a-search-ui/tree/main/?fontsize=14&hidenavigation=1&theme=dark&view=preview",
     },
     {
       label: "Q&A with AIAnswer and follow-up",

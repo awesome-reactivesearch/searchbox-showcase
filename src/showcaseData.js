@@ -105,7 +105,7 @@ const showcaseData = {
     {
       label: "Featured Suggestions",
       iframeLink:
-        "https://codesandbox.io/github/appbaseio/reactivesearch/tree/feat/react-showcase-examples/packages/web/examples/SearchBoxWithFeaturedSuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/react-showcase-examples/packages/web/examples/SearchBoxWithFeaturedSuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
       description: <div>Show a list of pre-defined suggestions.</div>,
     },
     {

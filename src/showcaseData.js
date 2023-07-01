@@ -260,7 +260,7 @@ const showcaseData = {
     {
       label: "Focus Shortcut",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-000/packages/vue/examples/search-showcase/focus-shortcuts?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/focus-shortcuts?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
       description: (
         <div>
           <p>
@@ -280,7 +280,7 @@ const showcaseData = {
     {
       label: "Featured Suggestions",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/featured-suggestions?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-000/packages/vue/examples/search-showcase/featured-suggestions?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
       description: <div>Show a list of pre-defined suggestions.</div>,
     },
     {

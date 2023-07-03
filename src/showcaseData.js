@@ -14,7 +14,7 @@ const showcaseData = {
           useful for users on mobile devices or for those with accessibility
           needs. Read more about this prop and see the whole SearchBox component
           reference over{" "}
-          <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/searchbox/#showvoicesearch">
+          <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/searchbox/#showvoicesearch" target="_blank">
             here
           </a>
           .
@@ -28,7 +28,7 @@ const showcaseData = {
       description: (
         <div>
           When{" "}
-          <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/searchbox/#autosuggest">
+          <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/searchbox/#autosuggest" target="_blank">
             <code>autosuggest</code>
           </a>{" "}
           prop is set to <code>true</code>, the SearchBox will query the index
@@ -43,7 +43,7 @@ const showcaseData = {
       description: (
         <div>
           <b>
-            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/searchbox/#enablepopularsuggestions">
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/searchbox/#enablepopularsuggestions" target="_blank">
               Popular Suggestions:
             </a>
           </b>
@@ -56,7 +56,7 @@ const showcaseData = {
           </p>
           <b>
             {" "}
-            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/searchbox/#enablerecentsuggestions">
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/searchbox/#enablerecentsuggestions" target="_blank">
               Recent Suggestions:
             </a>{" "}
           </b>
@@ -93,7 +93,7 @@ const showcaseData = {
       description: (
         <div>
           Suggestions displayed as pills instead of a list. Use the{" "}
-          <a href="https://docs-fnqb1pxko-reactivesearch.vercel.app/docs/reactivesearch/react/search/searchbox/#render">
+          <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/searchbox/#render" target="_blank">
             <code>render</code>
           </a>{" "}
           prop to change the display of suggestions.
@@ -133,7 +133,7 @@ const showcaseData = {
             <code>enable-featured-suggestions</code>
           </a>{" "}
           is set, shows a list of pre-defined suggestions. You need to pass{" "}
-          <a href="https://docs-fnqb1pxko-reactivesearch.vercel.app/docs/reactivesearch/react/search/searchbox/#searchboxid">
+          <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/searchbox/#searchboxid" target="_blank">
             <code>searchbox-id</code>
           </a>{" "}
           which contains the pre-defined suggestions to be shown.
@@ -148,7 +148,7 @@ const showcaseData = {
         <div>
           <p>
             A simple AI QnA app using{" "}
-            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/">
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/" target="_blank">
               AIAnswer
             </a>{" "}
             component
@@ -169,7 +169,7 @@ const showcaseData = {
         <div>
           <p>
             A simple AI QnA app using{" "}
-            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/">
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/" target="_blank">
               AIAnswer
             </a>{" "}
             component where you can also ask follow up questions.
@@ -192,7 +192,7 @@ const showcaseData = {
         <div>
           <p>
             Find your answers for the questions asked using{" "}
-            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/">
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/aianswer/" target="_blank">
               SearchBox
             </a>{" "}
             component.
@@ -221,7 +221,7 @@ const showcaseData = {
           useful for users on mobile devices or for those with accessibility
           needs. Read more about this prop and see the whole{" "}
           <code>search-box</code> component reference over{" "}
-          <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#showvoicesearch">
+          <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#showvoicesearch" target="_blank">
             here
           </a>
           .
@@ -235,7 +235,7 @@ const showcaseData = {
       description: (
         <div>
           When{" "}
-          <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#autosuggest">
+          <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#autosuggest" target="_blank">
             <code>autosuggest</code>
           </a>{" "}
           prop is set to <code>true</code>, the <code>search-box</code> will
@@ -250,7 +250,7 @@ const showcaseData = {
       description: (
         <div>
           <b>
-            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#enablepopularsuggestions">
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#enablepopularsuggestions" target="_blank">
               Popular Suggestions:
             </a>
           </b>
@@ -263,7 +263,7 @@ const showcaseData = {
           </p>
           <b>
             {" "}
-            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#enablerecentsuggestions">
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#enablerecentsuggestions" target="_blank">
               Recent Suggestions:
             </a>{" "}
           </b>
@@ -285,7 +285,7 @@ const showcaseData = {
         <div>
           <p>
             This can be enabled by setting the{" "}
-            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#autosuggest">
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#autosuggest" target="_blank">
               <code>autosuggest</code>
             </a>{" "}
             prop to <code>false</code>.
@@ -303,7 +303,7 @@ const showcaseData = {
       description: (
         <div>
           Suggestions displayed as pills instead of a list. Use the{" "}
-          <a href="https://docs-fnqb1pxko-reactivesearch.vercel.app/docs/reactivesearch/vue/search/SearchBox/#render">
+          <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#render" target="_blank">
             <code>#render</code>
           </a>{" "}
           slot to change the display of suggestions.
@@ -320,7 +320,7 @@ const showcaseData = {
         <div>
           <p>
             The{" "}
-            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#focusshortcuts">
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#focusshortcuts" target="_blank">
               <code>focus-shortcuts</code>
             </a>{" "}
             prop allows you to define a list of keyboard shortcuts that will
@@ -343,11 +343,11 @@ const showcaseData = {
       description: (
         <div>
           When,{" "}
-          <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#enablefeaturedsuggestions">
+          <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#enablefeaturedsuggestions" target="_blank">
             <code>enable-featured-suggestions</code>
           </a>{" "}
           is set, shows a list of pre-defined suggestions. You need to pass{" "}
-          <a href="https://docs-fnqb1pxko-reactivesearch.vercel.app/docs/reactivesearch/vue/search/SearchBox/#searchboxid">
+          <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#searchboxid" target="_blank">
             <code>searchbox-id</code>
           </a>{" "}
           which contains the pre-defined suggestions to be shown.
@@ -362,7 +362,7 @@ const showcaseData = {
         <div>
           <p>
             A simple AI QnA app using{" "}
-            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/aianswer/">
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/aianswer/" target="_blank">
               ai-answer
             </a>{" "}
             component
@@ -385,7 +385,7 @@ const showcaseData = {
         <div>
           <p>
             A simple AI QnA app using{" "}
-            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/aianswer/">
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/aianswer/" target="_blank">
               ai-answer
             </a>{" "}
             component where you can also ask follow up questions.
@@ -408,7 +408,7 @@ const showcaseData = {
         <div>
           <p>
             Find your answers for the questions asked using{" "}
-            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#enableai">
+            <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#enableai" target="_blank">
               search-box
             </a>{" "}
             component.

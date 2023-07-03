@@ -220,8 +220,7 @@ const showcaseData = {
           to search using their voice instead of typing. This can be especially
           useful for users on mobile devices or for those with accessibility
           needs. Read more about this prop and see the whole{" "}
-          <code>search-box</code>
-          component reference over{" "}
+          <code>search-box</code> component reference over{" "}
           <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#showvoicesearch">
             here
           </a>

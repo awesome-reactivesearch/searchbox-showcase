@@ -195,12 +195,12 @@ const showcaseData = {
         "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/voice-search?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
       description: (
         <div>
-          Set <code>showVoiceSearch</code> prop to true to enable voice search.
-          This adds a microphone icon to the search box, allowing users to
-          search using their voice instead of typing. This can be especially
+          Set <code>show-voice-search</code> prop to true to enable voice
+          search. This adds a microphone icon to the search box, allowing users
+          to search using their voice instead of typing. This can be especially
           useful for users on mobile devices or for those with accessibility
-          needs. Read more about this prop and see the whole SearchBox component
-          reference over{" "}
+          needs. Read more about this prop and see the whole `search-box`
+          component reference over{" "}
           <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#showvoicesearch">
             here
           </a>
@@ -218,8 +218,8 @@ const showcaseData = {
           <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#autosuggest">
             <code>autosuggest</code>
           </a>{" "}
-          prop is set to <code>true</code>, the SearchBox will query the index
-          for suggestions based on the user's input
+          prop is set to <code>true</code>, the `search-box` will query the
+          index for suggestions based on the user's input
         </div>
       ),
     },
@@ -237,9 +237,9 @@ const showcaseData = {
           <p>
             You can also enable popular suggestions, which show frequently
             searched terms. To do this, set the{" "}
-            <code>enablePopularSuggestions</code> prop to true. You can
+            <code>enable-popular-suggestions</code> prop to true. You can
             customize the behavior of popular suggestions using the{" "}
-            <code>popularSuggestionsConfig</code> prop.
+            <code>popular-suggestions-config</code> prop.
           </p>
           <b>
             {" "}
@@ -250,9 +250,9 @@ const showcaseData = {
           <p>
             You can also enable recent suggestions, which show the user's most
             recent searches. To do this, set the{" "}
-            <code>enableRecentSuggestions</code> prop to true. You can customize
-            the behavior of recent suggestions using the{" "}
-            <code>recentSuggestionsConfig</code> prop.
+            <code>enable-recent-suggestions</code> prop to true. You can
+            customize the behavior of recent suggestions using the{" "}
+            <code>recent-suggestions-config</code> prop.
           </p>
         </div>
       ),
@@ -293,7 +293,7 @@ const showcaseData = {
           <p>
             The{" "}
             <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#focusshortcuts">
-              <code>focusShortcuts</code>
+              <code>focus-shortcuts</code>
             </a>{" "}
             prop allows you to define a list of keyboard shortcuts that will
             focus the search box when pressed.
@@ -301,7 +301,7 @@ const showcaseData = {
           <p>
             For example, if you want to focus the search box when the user
             presses the <code>/</code> key, you can set{" "}
-            <code>focusShortcuts</code> to <code>['/']</code>. You can also
+            <code>focus-shortcuts</code> to <code>['/']</code>. You can also
             define more complex keyboard shortcuts, such as <code>SHIFT+A</code>
             , by separating the key names with a <code>+</code>.
           </p>
@@ -323,7 +323,7 @@ const showcaseData = {
           <p>
             A simple AI QnA app using{" "}
             <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/aianswer/">
-              AIAnswer
+              ai-answer
             </a>{" "}
             component
           </p>
@@ -346,7 +346,7 @@ const showcaseData = {
           <p>
             A simple AI QnA app using{" "}
             <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/aianswer/">
-              AIAnswer
+              ai-answer
             </a>{" "}
             component where you can also ask follow up questions.
           </p>
@@ -369,13 +369,13 @@ const showcaseData = {
           <p>
             Find your answers for the questions asked using{" "}
             <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#enableai">
-              SearchBox
+              search-box
             </a>{" "}
             component.
           </p>
           <p>
-            You can pass <code>enableAI</code> to <code>true</code>. You can use{" "}
-            <code>AIConfig</code> for customizing the documents and query
+            You can pass <code>enable-ai</code> to <code>true</code>. You can
+            use <code>AIConfig</code> for customizing the documents and query
             passed.
           </p>
         </div>

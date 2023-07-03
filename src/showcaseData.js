@@ -90,7 +90,15 @@ const showcaseData = {
     },
     {
       label: "Suggestion as Pills",
-      description: <div>Suggestions displayed as pills instead of a list.</div>,
+      description: (
+        <div>
+          Suggestions displayed as pills instead of a list. Use the{" "}
+          <a href="https://docs-fnqb1pxko-reactivesearch.vercel.app/docs/reactivesearch/react/search/searchbox/#render">
+            <code>render</code>
+          </a>{" "}
+          prop to change the display of suggestions.
+        </div>
+      ),
       iframeLink:
         "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/react-showcase-examples/packages/web/examples/SearchBoxWithPillSuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
     },
@@ -118,7 +126,19 @@ const showcaseData = {
       label: "Featured Suggestions",
       iframeLink:
         "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/react-showcase-examples/packages/web/examples/SearchBoxWithFeaturedSuggestions?fontsize=14&hidenavigation=1&theme=dark&view=preview",
-      description: <div>Show a list of pre-defined suggestions.</div>,
+      description: (
+        <div>
+          When,{" "}
+          <a href="https://docs.reactivesearch.io/docs/reactivesearch/react/search/searchbox/#enablefeaturedsuggestions">
+            <code>enable-featured-suggestions</code>
+          </a>{" "}
+          is set, shows a list of pre-defined suggestions. You need to pass{" "}
+          <a href="https://docs-fnqb1pxko-reactivesearch.vercel.app/docs/reactivesearch/react/search/searchbox/#searchboxid">
+            <code>searchbox-id</code>
+          </a>{" "}
+          which contains the pre-defined suggestions to be shown.
+        </div>
+      ),
     },
     {
       label: "Q&A Simple",
@@ -199,7 +219,8 @@ const showcaseData = {
           search. This adds a microphone icon to the search box, allowing users
           to search using their voice instead of typing. This can be especially
           useful for users on mobile devices or for those with accessibility
-          needs. Read more about this prop and see the whole `search-box`
+          needs. Read more about this prop and see the whole{" "}
+          <code>search-box</code>
           component reference over{" "}
           <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#showvoicesearch">
             here
@@ -218,8 +239,8 @@ const showcaseData = {
           <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#autosuggest">
             <code>autosuggest</code>
           </a>{" "}
-          prop is set to <code>true</code>, the `search-box` will query the
-          index for suggestions based on the user's input
+          prop is set to <code>true</code>, the <code>search-box</code> will
+          query the index for suggestions based on the user's input
         </div>
       ),
     },
@@ -280,7 +301,15 @@ const showcaseData = {
     },
     {
       label: "Suggestion as Pills",
-      description: <div>Suggestions displayed as pills instead of a list.</div>,
+      description: (
+        <div>
+          Suggestions displayed as pills instead of a list. Use the{" "}
+          <a href="https://docs-fnqb1pxko-reactivesearch.vercel.app/docs/reactivesearch/vue/search/SearchBox/#render">
+            <code>#render</code>
+          </a>{" "}
+          slot to change the display of suggestions.
+        </div>
+      ),
       iframeLink:
         "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/pill-suggestions?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
     },
@@ -312,7 +341,19 @@ const showcaseData = {
       label: "Featured Suggestions",
       iframeLink:
         "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-000/packages/vue/examples/search-showcase/featured-suggestions?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
-      description: <div>Show a list of pre-defined suggestions.</div>,
+      description: (
+        <div>
+          When,{" "}
+          <a href="https://docs.reactivesearch.io/docs/reactivesearch/vue/search/SearchBox/#enablefeaturedsuggestions">
+            <code>enable-featured-suggestions</code>
+          </a>{" "}
+          is set, shows a list of pre-defined suggestions. You need to pass{" "}
+          <a href="https://docs-fnqb1pxko-reactivesearch.vercel.app/docs/reactivesearch/vue/search/SearchBox/#searchboxid">
+            <code>searchbox-id</code>
+          </a>{" "}
+          which contains the pre-defined suggestions to be shown.
+        </div>
+      ),
     },
     {
       label: "Q&A Simple",

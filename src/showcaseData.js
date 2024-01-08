@@ -239,7 +239,7 @@ const showcaseData = {
     {
       label: "Voice Search",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/voice-search?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/search-showcase/voice-search?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
       description: (
         <div>
           Set <code>show-voice-search</code> prop to true to enable voice
@@ -261,7 +261,7 @@ const showcaseData = {
     {
       label: "With Autosuggestion",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/auto-suggestions?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/search-showcase/auto-suggestions?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
       description: (
         <div>
           When{" "}
@@ -279,7 +279,7 @@ const showcaseData = {
     {
       label: "With Popular and Recent Suggestions",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/simple-search?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/search-showcase/simple-search?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
       description: (
         <div>
           <b>
@@ -319,7 +319,7 @@ const showcaseData = {
     {
       label: "With InstantSearch",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/instant-search?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/search-showcase/instant-search?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
       description: (
         <div>
           <p>
@@ -355,12 +355,12 @@ const showcaseData = {
         </div>
       ),
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/pill-suggestions?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/search-showcase/pill-suggestions?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
     },
     {
       label: "Focus Shortcut",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/focus-shortcuts?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/search-showcase/focus-shortcuts?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
       description: (
         <div>
           <p>
@@ -411,7 +411,7 @@ const showcaseData = {
     {
       label: "Q&A Simple",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/ai-answer-simple?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/search-showcase/ai-answer-simple?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
       description: (
         <div>
           <p>
@@ -437,7 +437,7 @@ const showcaseData = {
     {
       label: "Q&A with AIAnswer and follow-up",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/movie-search-ai-demo?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/search-showcase/movie-search-ai-demo?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
       description: (
         <div>
           <p>
@@ -463,7 +463,7 @@ const showcaseData = {
     {
       label: "SearchBox shows AIAnswer",
       iframeLink:
-        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/feat/just-for-csb-001/packages/vue/examples/search-showcase/searchbox-inline-ai-response?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
+        "https://codesandbox.io/embed/github/appbaseio/reactivesearch/tree/next/packages/vue/examples/search-showcase/searchbox-inline-ai-response?embed=1&file=src%2FApp.vue&hideExplorer=1&view=preview",
       description: (
         <div>
           <p>
